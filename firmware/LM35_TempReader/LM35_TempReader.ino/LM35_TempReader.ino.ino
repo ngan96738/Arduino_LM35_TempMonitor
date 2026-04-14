@@ -12,9 +12,15 @@ void loop() {
   adcValues[2] = analogRead(A2);
   nhietDo[2] = (adcValues[2] * 500.0) / 1023.0;
 
+<<<<<<< HEAD
   sprintf(chuoi, "{\"A0\":%d,\"A1\":%d,\"A2\":%d}\n",
           (int)nhietDo[0],
           (int)nhietDo[1],
+=======
+  sprintf(chuoi, "%d,%d,%d\n", 
+          (int)nhietDo[0], 
+          (int)nhietDo[1], 
+>>>>>>> main
           (int)nhietDo[2]);
 
   Serial.print(chuoi);

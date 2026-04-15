@@ -32,7 +32,7 @@
 * `firmware/`: Chứa mã nguồn chạy trên Arduino.
 * `docs/`: Chứa tài liệu và báo cáo.
 ## Tac gia
-[Nguyen Ngan] https://ngan96738.github.io/  - Sinh vien PTIT
+[Nguyen Ngan] https://ngan96738.github.io/  - Sinh vien PTIT  
 
 
 
